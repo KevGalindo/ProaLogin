@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROA</title>
+    <link rel="icon" href="assets/icon/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="Logo de la empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><span class="separator">|</span></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><span class="separator">|</span></li>
+                <li><a href="#">Servicios</a></li>
+                <li><span class="separator">|</span></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="left">
+                <h1>
+                    PORQUE <b>DONAR</b><br>
+                    <span id="titulo"></span> 
+                </h1>
+                <p>
+                    ÚNETE A NUESTRA CAUSA
+                </p>
+            </div>
+            <div class="right">
+                <div class="image-container">
+                    <img class="background-image" src="assets/img/paciente.png" alt="Imagen de fondo">
+                    <img class="overlay-image" src="assets/img/gota.png" alt="Imagen en la esquina">
+                </div>
+            </div>
+        </div>
+        <svg class="background-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#C90506" fill-opacity="0.9" d="M0,288L34.3,288C68.6,288,137,288,206,288C274.3,288,343,288,411,245.3C480,203,549,117,617,85.3C685.7,53,754,75,823,101.3C891.4,128,960,160,1029,154.7C1097.1,149,1166,107,1234,85.3C1302.9,64,1371,64,1406,64L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+        </svg>
+    </main>
+    <section class="about">
+        <div class="background">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#C90506" fill-opacity="1" d="M0,192L80,186.7C160,181,320,171,480,186.7C640,203,800,245,960,256C1120,267,1280,245,1360,234.7L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+              </svg>
+            <img src="assets/img/background.png" alt="">
+        </div>
+        <div class="x-container">
+            <div class="about__flex">
+                <div class="about__left">
+                    <h2>Confia en nosotros</h2>
+                </div>
+                <div class="about__right">
+                    <p>En el Perú se requieren 650 mil unidades de sangre anuales y actualmente se recolectan 350 mil; 
+                        causando muchas muertes por escasez de unidades. Ante esta situación, 
+                        buscamos salvar vidas por medio de la donación de sangre voluntaria, de calidad y no remunerada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="planes">
+                <div class="plan">
+                    <img src="assets/img/caso.jpg" alt="">
+                    <div class="content">
+                        <h3>Conoce dónde donar sangre para niños con cáncer</h3>
+                    </div>
+                </div>
+                <div class="plan">
+                    <img src="assets/img/caso2.jpeg" alt="">
+                    <div class="content">
+                        <h3>56 unidades de sangre para ayudar a salvar vidas</h3>
+                    </div>
+                </div>
+                <div class="plan">
+                    <img src="assets/img/caso3.jpg" alt="">
+                    <div class="content">
+                        <h3></a>Rompiendo mitos sobre la donación de sangre</h3>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#titulo', {
+            strings: ['SALVA VIDAS'],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop:true
+        });
+    </script>
+</body>
+</html>
