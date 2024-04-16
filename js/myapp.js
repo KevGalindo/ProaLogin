@@ -3,8 +3,8 @@ const $password = $("#password");
 
 /* CREDENCIALES VERDADERAS */
 const credenciales = {
-    usuario: "AdmindProa",
-    pass: "Desarrollo@Beta"
+    usuario: "UCH2024",
+    pass: "123456"
 };
 
 $("#login").on("click", function(){
@@ -12,7 +12,8 @@ $("#login").on("click", function(){
     const valuePassword = $password.val();
     if (valueUsuario == credenciales.usuario) {
         if (valuePassword == credenciales.pass) {
-            location.href = "index2.html";
+            localStorage.setItem("inicioSesion", true);
+            location.href = "dashboard.html";
         } else {
             Swal.fire({
                 title: "ERROR",
